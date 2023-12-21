@@ -1,0 +1,8 @@
+Concurrency adalah menjalankan beberapa proses secara
+bergantian.
+
+Faktor-faktor yang bisa dipertimbangkan
+apa perlu menggunakan parallel atau concurrency:
+- Parallel bagus ketika menggunakan konsep CPU Bound
+- Concurrrency bagus ketika menggunakann konsei I/O Bound,
+    yaitu kondisi dimana kebanyakan kasus seperti akses database, membaca file, dsb.

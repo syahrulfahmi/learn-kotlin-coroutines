@@ -1,0 +1,16 @@
+KOTLIN COROUTINES
+
+Q : Apa itu parallel programming?
+A : Memecahkan suatu masalah dengan cara membaginya menjadi bagian
+yang lebih kecil dan dijalankan secara bersamaan. Contoh mendownload file yang besar
+
+Saat melakukan proses paralel akan ada 2 konsep, yaitu Process & Thread
+Process
+- Process adalah eksekusi sebuah program
+- Eksekusi memori yang besar
+- Process saling terisolasi atau tidak terkait dengan process yang lain
+
+Thread
+- Segmen dari process yang dijalankan
+- konsumsi memori cenderung kecil
+- Bisa saling berhubungan

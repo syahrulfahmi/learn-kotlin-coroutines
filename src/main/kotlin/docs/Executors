@@ -1,0 +1,6 @@
+Executors Service merupakan fitur untuk management thread
+- newSingleThreadExecutor   : membuat executor dengan 1 thread
+- newFixedThreadPool(n:Int) : membuat executor service dengan n thread
+- newCachedThreadPool       : membuat executor service dengan thread akan meningkat
+                              sesuai kebutuhan.
+

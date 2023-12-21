@@ -1,0 +1,10 @@
+Coroutines sering diistilahkan sebagai lightweight thread, walaupun kotlin sendiri bukanlah thread.
+Coroutines sebenarnya dieksekusi didalam thread, namun dengan coroutines sebuah thread bisa dijalankan
+secara bergantian. Artinya jika sebuah thread menjalankan 10 coroutine, sebenarnya thread akan menjalankan
+coroutine satu per satu secara concurent. Coroutines juga murah dan cepat sehingga kita bisa membuat ratusan
+coroutine secara cepat dan murah tanpa harus takut kelebihan memori.
+
+Pada coroutine, kita harus mengerti tentang Suspend Function. Suspend Function artinya adalah sebuah proses yang bisa
+ditangguhkan tanpa harus memblok thread. Biasanya kita bisa menggunakan Thread.sleep() untuk menangguhkan thread, akan
+tetapi ini tidak direkomendasikan karena dapat memblok thread. Syarat untuk memanggil suspend function harus dipanggil
+di dalam suspend function lainnya.
